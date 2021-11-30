@@ -154,6 +154,11 @@ The file generated is an example of a `timer-source`, so you need to edit it a b
 - Remove the `message` property from the set of properties and the list of required fields, we can keep the period
 - Set a default value for the period of 15000 milliseconds, to avoid overloading the remote service
 - Set the `mediaType` to `application/json`
+- Add an empty dpendencies list (`    dependencies: []`) under `spec:` like:
+  ```
+  spec:
+    depencencies: []
+  ```
 - Replace the route at the bottom with the route in the test.yaml file, doing the following changes:
   - Take only the first route, not the YAML array of routes
   - Replace the final URI "log:info?showStreams=true" with the placeholder "kamelet:sink"
@@ -169,6 +174,7 @@ metadata:
   labels:
     camel.apache.org/kamelet.type: "source"
 spec:
+  dependencies: []
   definition:
     title: "Random Source"
     description: "Produces periodic events with a random payload"
