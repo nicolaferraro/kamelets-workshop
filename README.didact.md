@@ -293,7 +293,7 @@ The **deadline for submission is Monday December 6th at 18:00 CET** (date of cre
 
 Refer to the [Kamelets developer guide](https://camel.apache.org/camel-k/next/kamelets/kamelets-dev.html) for instructions on how to create advanced Kamelets.
 
-Before starting a specific Kamelet, remember to state what you're going to work on in the workshop spreadsheet: **organizers will put the link here**, to avoid having people working on the same thing.
+Before starting a specific Kamelet, remember to state what you're going to work on in the [workshop spreadsheet](https://docs.google.com/spreadsheets/d/1n2asMQS0tVyodmLeoCFw06IKiZQfVAtesvVDVGtJfUs), to avoid having people working on the same thing.
 
 Submissions will be evaluated and voted by a commission on the following aspects:
 - **Usefulness**: how much it's interesting for a customer to have it in the catalog; how much a sales/marketing/eng person would use it to do a demo for possible customers.
